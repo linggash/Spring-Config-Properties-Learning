@@ -18,7 +18,7 @@ public class ProfileTest {
 
     @Test
     void testProfile() {
-        Assertions.assertEquals("Hello bambang from Local", sayHello.say("bambang"));
+        Assertions.assertEquals("Hello bambang from Production", sayHello.say("bambang"));
     }
 
     @SpringBootApplication
